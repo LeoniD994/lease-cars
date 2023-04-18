@@ -31,6 +31,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.3;
 }
 
 .header__inner {
@@ -65,4 +66,43 @@ body{
 
 .main {}
 
-.footer {}
+.footer {
+    background-color: #151515;
+    padding: 50px 0 32px;
+    color: #fff;
+}
+
+.contauner {}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.footer__menu-list {
+}
+
+.footer__menu-item {}
+
+.footer__menu-title {
+    font-size: 24px;
+    font-weight: 700px;
+    
+}
+
+.footer__menu-link {
+
+}
+
+.app {
+
+}
+
+.app__item {}
+
+.app__item-link {}
+
+.app__item-img {
+    
+}
