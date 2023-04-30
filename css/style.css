@@ -303,14 +303,15 @@ body{
     padding: 100px 0 150px;
 }
 
-.tabs {}
-
 .tabs__btn {
     padding: 0 150px;
     display: flex;
     justify-content: space-between;
     gap: 80px;
     padding-bottom: 100px;
+}
+.tabs{
+    margin-bottom: 70px;
 }
 
 .tabs__btn-item {
@@ -325,42 +326,54 @@ body{
     color: #06f;
 }
 
-.tabs__content {
-
-}
-
-.tabs__content-item {
+.tabs__content{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 100px 40px;
+    row-gap: 100px;
+}
+.tabs__content-item {
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.tabs__content-item.tabs__content-item--active{
+    display: grid;
 }
 
 .card {
     text-align: center;
 }
 
-.card__img {
-    margin-bottom: 20px;
+.card__img{
+    display: block;
 }
 
 .card__title {
     font-size: 24px;
     font-weight: 700;
+    padding-top: 20px ;
     margin-bottom: 20px;
-    padding: 0 5px;
 }
 
-.card__text {}
+.card__content{
+    padding: 0 5px;
+    border: 1px solid #06f;
+    border-top: 0;
+}
+.card__text{
+    margin-bottom: 20px;
+}
 
 .card__price {
-    padding: 0 5px;
     margin-bottom: 20px;
-}
-.card__link {
-    padding: 0 5px;
     margin-bottom: 20px;
     font-size: 24px;
-    font-weight: 70;
+    font-weight: 700;
+}
+.card__link {
+    display: block;
+    color: #06f;
+    border: 1px solid #06f;
+    border-top: 0;
 }
 
 
